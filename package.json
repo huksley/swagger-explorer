@@ -1,0 +1,18 @@
+{
+  "name": "aws-schemas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w *.* -w swagger"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4",
+    "swagger-ui-dist": "^3.24.0",
+    "swagger-ui-express": "^4.1.2",
+    "yamljs": "^0.3.0"
+  }
+}
