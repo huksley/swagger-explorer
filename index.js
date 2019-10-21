@@ -14,7 +14,7 @@ var options = {
     }
 };
 
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(null, options));
 app.use('/swagger', express.static('swagger'))
+app.use('/', swaggerUi.serve, swaggerUi.setup(null, options));
 
 app.listen(3000)
