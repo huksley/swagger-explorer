@@ -2,6 +2,8 @@
 
 Runs SwaggerUI and displays all Swagger Schemas from a folder
 
+![Example](screenshot.png)
+
 ## Usage
 
  * Clone this repo
